@@ -1,0 +1,21 @@
+<resources>
+    <string name="tfe_ic_app_name" translation_description="Ứng dụng demo Phân loại hình ảnh [CHAR_LIMIT=40]">Nhận biết các loài hoa</string>
+    <string name="tfe_ic_camera_error" translation_description="Lỗi liên quan đến hỗ trợ máy ảnh [CHAR_LIMIT=40]">Thiết bị này không hỗ trợ API Camera sau.</string>
+    <string name="tfe_ic_gpu_quant_error" translation_description="Lỗi liên quan đến hỗ trợ GPU cho các mô hình Quant [CHAR_LIMIT=60]">GPU chưa hỗ trợ các mô hình lượng tử hóa.</string>
+    <string name="tfe_ic_model" translatable="false">Model:</string>
+
+    <string-array name="tfe_ic_models" translatable="false">
+        <item>Quantized_EfficientNet</item>
+        <item>Float_EfficientNet</item>
+        <item>Quantized_MobileNet</item>
+        <item>Float_MobileNet</item>
+    </string-array>
+
+    <string name="tfe_ic_device" translatable="false">Thiết bị:</string>
+
+    <string-array name="tfe_ic_devices" translatable="false">
+        <item>CPU</item>
+        <!-- TODO: Add GPU  -->
+        <item>GPU</item>
+    </string-array>
+</resources>
