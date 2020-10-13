@@ -53,6 +53,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.0.0'
+
     // Sử dụng TensorFlow Lite AAR được lưu trữ tại JCenter
     implementation('org.tensorflow:tensorflow-lite:0.0.0-nightly') {
         changing = true
